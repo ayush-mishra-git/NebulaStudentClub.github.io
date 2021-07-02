@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1200px) {
+  .container-block {
+    height: 90vh;
+  }
+  .container {
+    width: 70%;
+  }
+  .slide-controls {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container-block {
+    height: 120vh;
+    width: 100%;
+  }
+  .container {
+    height: 100vh;
+  }
+  .slide-controls {
+    width: 90%;
+  }
+  #prev-btn,
+  #next-btn {
+    color: grey;
+    opacity: 0.8;
+  }
+  .slide {
+    flex-direction: column;
+  }
+  .slide img {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}
